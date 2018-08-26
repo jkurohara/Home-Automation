@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+    padding-top:50px;
+}
+
+
+
+body {
+   font-family: 'Lato';
+    margin-top:200px;
+    text-align:center;
+    color:white;    
+  /*  border: 8px solid lightgreen;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('http://coolwallpaper.website/wp-content/uploads/2016/11/Nice-Duck-Backgrounds-Wallpaper-Free-download-best-Latest-3D-HD-desktop-wallpapers-background-Wide-Most-Popular-Images-in-high-quality-resolutions-home-sofa.jpg');
+*/}
+
+#clock {
+    font-size: 200px;
+    font-weight:300;
+    /*font-family: 'Lato';*/
+ /*  display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+h2 {
+	text-align:center;
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: 'Lato';
+    font-size: 0.6em;
+    padding: 0.7em;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #eee;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 24px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#setButton {
+       font-family: 'Lato';
+    float:left;
+    font-weight: bold;
+    background-color:lightgreen;
+    margin-top:35px;
+}
+#clearButton {
+       font-family: 'Lato';
+       font-weight: bold;
+    float:right;
+    background-color:red;
+    margin-top:35px;
+}
+
+
+
+
